@@ -1,0 +1,233 @@
+body {
+    background-color: #fef7f1;
+    color: #907a63;
+}
+
+#parallax1 {
+    /*Image used*/
+    background-image: url("https://github.com/stlefebvre/UpdatedPortfolio/blob/master/assets/images/parallax-1-img.jpg?raw=true");
+    /*Sets specific height*/
+    height: 500px;
+    /*Creates parallax scrolling effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center
+}
+
+#jumbotron {
+    text-align: center;
+    background-color: #fef7f1;
+    opacity: 0.7;
+}
+
+#jumbotron-head {
+    color: #dd8069;
+}
+
+.ml9 {
+    position: relative;
+    font-weight: 200;
+    font-size: 4em;
+}
+
+.ml9 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml9 .letter {
+    transform-origin: 50% 100%;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.jumbo-link {
+    position: relative;
+    color: #dd8069;
+    text-decoration: none;
+}
+
+.jumbo-link:hover {
+    color: #E3A485;
+    text-decoration: underline
+}
+
+#about-me {
+    border-bottom: double;
+    margin-bottom: 40px;
+    border-color: #dd8069;
+}
+
+#about-me-head {
+    text-align: right;
+    color: #dd8069;
+    border-bottom: double;
+}
+
+#profile-picture {
+    height: 300px;
+    width: 250px;
+    float: right;
+}
+
+#parallax2 {
+    /*Image used*/
+    background-image: url("https://github.com/stlefebvre/UpdatedPortfolio/blob/master/assets/images/parallax-2-img.jpg?raw=true");
+    /*Sets specific height*/
+    height: 530px;
+    /*Creates parallax scrolling effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#skills {
+    background-color: #fef7f1;
+    opacity: 0.7;
+    position: relative;
+    bottom: -200px;
+}
+
+#dev-skills {
+    background-color: #907a63;
+    color: #fef7f1;
+    opacity: 0.7;
+    position: relative;
+    top: 100px;
+}
+
+#portfolio {
+    margin-bottom: 40px;
+}
+
+#portfolio-head {
+    color: #dd8069;
+    text-align: left;
+    border-bottom: double;
+}
+
+#GiphyCard,
+#TriviaCard,
+#GroupCard {
+    background-color: #E3A485;
+    color: #fef7f1;
+}
+
+#giphySiteLink,
+#giphyRepoLink,
+#triviaSiteLink,
+#triviaRepoLink,
+#grpPrjctSite,
+#grpPrjctRepo {
+    background-color: #907a63;
+    color: #fef7f1;
+    border-color: #d7c5af;
+}
+
+#giphySiteLink:hover,
+#giphyRepoLink:hover,
+#triviaSiteLink:hover,
+#triviaRepoLink:hover,
+#grpPrjctSite:hover,
+#grpPrjctRepo:hover {
+    text-decoration: underline;
+}
+
+#parallax3 {
+    /*Image used*/
+    background-image: url("https://github.com/stlefebvre/UpdatedPortfolio/blob/master/assets/images/parallax-3-img.jpg?raw=true");
+    /*Sets specific height*/
+    height: 200px;
+    /*Creates parallax scrolling effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact-div {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#contact-card {
+    border-color: #907a63
+}
+
+#contact-header, #contact-footer {
+    background-color: #dd8069;
+    color: #fef7f1;
+    text-align: center;
+}
+
+#contact-title, #contact-text {
+    color: #907a63;
+}
+
+#contact-body {
+    background-color: #fef7f1;
+    text-align: center;
+    color: #E3A485;
+}
+
+.icon {
+    color: #907a63;
+    opacity: 0.6;
+}
+
+#githubGlyph:hover {
+    color: #c9510c;
+    opacity: 1;
+}
+
+#linkedinGlyph:hover {
+    color: #0077b5;
+    opacity: 1;
+}
+
+#gmailGlyph:hover {
+    color: #c71610;
+    opacity: 1;
+}
+
+#stckOvGlyph:hover {
+    color: #F48024;
+    opacity: 1;
+}
+
+#stckExGlyph:hover {
+    color: #222426;
+    opacity: 1;
+}
+
+@media screen and (max-width: 640px) {
+    #profile-picture {
+        display: none;
+    }
+    #skills {
+        position: inherit;
+    }
+    #dev-skills {
+        position: relative;
+        top: -100px;
+    }
+    #skills {
+        margin-bottom: 100px;
+    }
+    #portfolio-row {
+        margin-top: none;
+        position: relative;
+        top: 70px;
+    }
+
+    #mblGroupCard {
+        margin-bottom: 40px;
+    }
+}
